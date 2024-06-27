@@ -1,0 +1,72 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('./bg.png') left/cover no-repeat;
+    color: #444;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.stopwatch {
+    background: #fafafa;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+#timeDisplay {
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+    color: #555;
+}
+
+.controls {
+    margin-bottom: 25px;
+}
+
+button {
+    font-size: 1.1rem;
+    padding: 12px 25px;
+    margin: 6px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    background: #eaeaea;
+    color: #555;
+    cursor: pointer;
+    transition: background 0.3s, border-color 0.3s;
+}
+
+button:hover {
+    background: #dcdcdc;
+    border-color: #aaa;
+}
+
+.laps {
+    text-align: left;
+    margin-top: 25px;
+}
+
+.laps h2 {
+    margin-bottom: 15px;
+    color: #555;
+}
+
+#lapList {
+    list-style: none;
+    padding: 0;
+    max-height: 220px;
+    overflow-y: auto;
+}
+
+#lapList li {
+    background: #f0f0f0;
+    padding: 8px;
+ 
